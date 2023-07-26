@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.nav img{
+    width: 12%;
+}
+.logo{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 15%;
+    height: 2%;
+    border-radius: 50%;
+}
+.logo .dot p{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-left: 1em;
+}
+.logo p{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+.logo .click{
+    display: flex;
+    align-items: center;
+}
+.logo .click p{
+    color: rgb(83, 79, 79);
+    font-size: 2em;
+    margin-left: 5rem;
+}
+.logo p img{
+    width: 1em;
+    height: 1em;
+}
+.content p{
+ margin-left: 9%;
+ font-size: 1.3rem;
+}
+.content{
+    display: flex;
+
+}
+.line {
+    border-left: 3px solid rgb(114, 116, 114);
+    height: auto;
+    margin-left: 9%;
+  }
+.gridimg img{
+    border-radius: 2%;
+    margin-left: 9%;
+    width: 23em;
+}
+.imageslide{
+    margin-top: 2%;
+    max-width: 100%;
+    position: relative;
+}
+.icons{
+    margin-left: 9%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+}
+.icons p{
+    font-size: 3rem;
+}
+.icons i{
+    font-size: 2rem;
+    padding-left: 1rem;
+    
+}
+.icons img{
+    width: 15%;
+    transform: rotate(15deg);
+}
+/* profile images */
+.profile-images-container {
+    position: relative;
+    width: 90px;
+    height: 60px;
+    display: flex;
+}
+.likesc p{
+    color: rgb(117, 116, 116);
+    padding-left: 6rem;
+    display: flex;
+    margin-top: -2rem;
+    font-size: 1.2em;
+
+}
+.profile-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+.profile-image:nth-child(1) {
+    z-index: 2;
+    right: 20px;
+    bottom: 10px;
+}
+
+.profile-image:nth-child(2) {
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+}
+
+.profile-image:nth-child(3) {
+    z-index: 1;
+    right: 40px;
+    bottom: 10px;
+}

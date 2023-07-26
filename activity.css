@@ -1,0 +1,160 @@
+*{
+    background-color: black;
+}
+.heading{
+    color: white;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.container1 .box1 .active{
+    background-color: white;
+    color: black;
+}
+.container1 .active a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.container1 .active{
+    width: 30%;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 1rem;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+}
+.container1 .box1{
+    width: 30%;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 1rem;
+    border-color: rgb(133, 132, 132);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container1 .box1 a{
+    text-decoration: none;
+}
+.account{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.account p{
+    color: white;
+    font-size: 120%;
+    margin-left: 3%;
+}
+.account span{
+    padding: 2%;
+}
+.account img{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 15%;
+    border-radius: 50%;
+}
+.account .following{
+    margin-left: 7%;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #6b6969;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 1.7rem;
+}
+.account .follow{
+    margin-left: 7%;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #f8f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 1.7rem;
+}
+.followed{
+    color: rgb(108, 105, 105);
+    margin-left: 18%;
+    margin-top: -11%;
+}
+.line{
+    margin-top: -5%;
+    width: 100%;
+    border: 0.1px solid rgb(123, 125, 123);
+}
+.foot {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+  }
+  .foot  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  /* Navbar links */
+  .foot a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    text-align: center;
+    padding-right: 8%;
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #000000;
+  }
+  
+  /* Navbar links on mouse-over */
+  .foot a:hover {
+    background-color: #000000;
+  }
+  
+  /* Current/active navbar link */
+  .foot .active {
+    background-color: #000000;
+    color: rgb(242, 235, 235);
+    border-color: white;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 1000px) {
+    .foot a {
+      float: none;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .container1 a {
+      float: none;
+      display: block;
+    }
+  }

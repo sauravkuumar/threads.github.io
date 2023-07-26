@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.header .block1 .line1{
+  margin-left: 1.5rem;
+  margin-top: 0.1rem;
+  display: wrap;
+    height: 0rem;
+    width: 1.5rem;
+    border: 2px solid white;
+}
+.header .block1 .line2{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+    height: 0rem;
+    width: 1rem;
+    border: 2px solid white;
+}
+.header .block1{
+  display: flex;
+  margin-left: 13rem;
+}
+.header .block1 i{
+  color: white;
+  font-size: 1.8rem;
+  
+}
+.foot {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+  }
+  .foot  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  /* Navbar links */
+  .foot a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    text-align: center;
+    padding-right: 0.8em;
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #000000;
+  }
+  
+  /* Navbar links on mouse-over */
+  .foot a:hover {
+    background-color: #000000;
+  }
+  
+  /* Current/active navbar link */
+  .foot .active {
+    background-color: #000000;
+    color: rgb(242, 235, 235);
+    border-color: white;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 1000px) {
+    .foot a {
+      float: none;
+      display: block;
+    }
+  }
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.6rem;
+}
+.container .text h2{
+  margin-top: 0.8rem;
+  font-size: 1.8rem;
+}
+.container .text p button{
+  color: rgba(98, 96, 96, 0.737);
+  border: none;
+  background-color: rgba(49, 48, 48, 0.329);
+  width: 5.2rem;
+  height: 1.7rem;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+}
+.container .text p{
+  margin-top: 0.2rem;
+  font-size: 1.1rem;
+}
+.container .text{
+  color: white;
+}
+.container .image{
+  margin-top: -10rem;
+  margin-right: 1rem;
+  width: 4.5rem;
+}
+.container .color {
+  margin-top: -3.5rem;
+  margin-left: 3.5rem;
+}
+.container .color p{
+  color: grey;
+}
+.container .image img{
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+}
+.profile-images-container {
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  background-color: transparent;
+}
+.likesc p{
+  color: rgb(117, 116, 116);
+  padding-left: 6rem;
+  display: flex;
+  margin-top: -2rem;
+  font-size: 1em;
+
+}
+.profile-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.profile-image:nth-child(1) {
+  z-index: 2;
+  left: 15px;
+  bottom: 30px;
+}
+
+.profile-image:nth-child(2) {
+  z-index: 1;
+  right: 30px;
+  bottom: 30px;
+}
+
+.container3{
+  margin: 1rem;
+}
+.container3 .edit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+
+}
+.container3 .edit button{
+  color: white;
+  height: 2rem;
+  width: 9.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(97, 96, 96, 0.726);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+}
+.line{
+    height: 0rem;
+    width: 50%;
+    border: 1px solid white;
+}
+.container4 {
+  margin: 1rem;
+  display: flex;
+}
+.container4 .edit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container4 .edit2 button{
+  border: none;
+  color: rgba(130, 129, 129, 0.674);
+  font-family: 'Times New Roman', Times, serif;
+  width: 9.5rem;
+  font-size: 1.2rem;
+}
+.container4 .edit2 button:hover{
+}
+.container4 .edit button{
+  border: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  width: 9.5rem;
+  font-size: 1.2rem;
+}

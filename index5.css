@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 img{
+  margin-top: 0.5rem;
+    width: 3rem;
+}
+.container2{
+  margin-top: 1rem;
+}
+.container2 .image{
+    margin: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 .image p img{
+    width: 18px;
+}
+.container2 .image .date{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.container2 .image .date p{
+    margin-right: 50px;
+    color: rgb(59, 57, 57);
+}
+.container2 .image .date h4{
+  color: rgb(124, 123, 121);
+}
+.container2 .image p{
+    padding-left: 12px;
+    font-size: 22px;
+}
+.container2 .image img{
+    width: 3em;
+    border-radius: 50%;
+}
+.foot {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+  }
+  .foot  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  /* Navbar links */
+  .foot a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    text-align: center;
+    padding-right: 0.8em;
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #000000;
+  }
+  
+  /* Navbar links on mouse-over */
+  .foot a:hover {
+    background-color: #000000;
+  }
+  
+  /* Current/active navbar link */
+  .foot .active {
+    background-color: #000000;
+    color: rgb(242, 235, 235);
+    border-color: white;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 1000px) {
+    .foot a {
+      float: none;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .container1 a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: auto;
+  }
+  .line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    height: auto;
+    border-left: 3px solid rgb(95, 96, 95);
+  }
+  .line .content{
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .line .content .upload{
+    display: flex;
+  }
+  .line .content .upload img{
+    border-radius: 0.5rem;
+    width: 18rem;
+  }
+  .line .content1{margin-top: 1rem;
+    display: flex;
+  }
+  .line .content1 i{
+    font-size: 1.5rem;
+    padding-left: 0.7rem;
+  }
+ 
+  
+  .profile-images-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+    display: flex;
+}
+.likesc p{
+    color: rgb(117, 116, 116);
+    padding-left: 6rem;
+    display: flex;
+    margin-top: -2rem;
+    font-size: 1em;
+
+}
+.profile-image {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+.profile-image:nth-child(1) {
+    z-index: 2;
+    right: 20px;
+    bottom: 10px;
+}
+
+.profile-image:nth-child(2) {
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+}
+
+.profile-image:nth-child(3) {
+    z-index: 1;
+    right: 40px;
+    bottom: 10px;
+}
