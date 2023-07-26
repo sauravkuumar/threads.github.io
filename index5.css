@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: center;
 }
+.container2 .image p{
+  font-size: 5rem;
+}
 .container1 img{
   margin-top: 0.5rem;
     width: 3rem;
@@ -16,18 +19,18 @@
   margin-top: 1rem;
 }
 .container2 .image{
-    margin: 3px;
+    margin: 1px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .container2 .image p img{
-    width: 18px;
+    width: 12px;
 }
 .container2 .image .date{
   display: flex;
-  font-size: 20px;
+  font-size: 13px;
   align-items: center;
 }
 .container2 .image .date p{
@@ -38,8 +41,8 @@
   color: rgb(124, 123, 121);
 }
 .container2 .image p{
-    padding-left: 12px;
-    font-size: 22px;
+    padding-left: 10px;
+    font-size: 18px;
 }
 .container2 .image img{
     width: 3em;
@@ -104,7 +107,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
     height: auto;
   }
   .line1{
@@ -125,7 +128,7 @@
   }
   .line .content .upload img{
     border-radius: 0.5rem;
-    width: 18rem;
+    width: 17rem;
   }
   .line .content1{margin-top: 1rem;
     display: flex;
